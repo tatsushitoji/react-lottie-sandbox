@@ -1,0 +1,26 @@
+{
+  "automerge": true,
+  "extends": [
+    "config:base"
+  ],
+  "packageRules": [
+    {
+      "packagePatterns": [
+        "*"
+      ]
+    },
+    {
+      "depTypeList": [
+        "dependencies"
+      ],
+      "groupName": "dependencies"
+    },
+    {
+      "depTypeList": [
+        "devDependencies"
+      ],
+      "groupName": "devDependencies"
+    }
+  ],
+  "schedule": "before 6pm on Friday"
+}

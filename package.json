@@ -22,6 +22,7 @@
     "tsc": "tsc --noEmit"
   },
   "dependencies": {
+    "@crello/react-lottie": "0.0.9",
     "@types/react": "16.9.34",
     "@types/react-dom": "16.9.6",
     "react": "16.13.1",
